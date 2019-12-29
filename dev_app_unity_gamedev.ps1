@@ -37,8 +37,9 @@ executeScript "Browsers.ps1";
 # visualstudio2017professional
 # visualstudio2017enterprise
 
-choco install -y unity
 choco install -y vcredist2013
+choco install -y unity-hub
+choco install -y unity
 
 choco install -y visualstudio2019community --package-parameters="'--add Microsoft.VisualStudio.Component.Git --add Microsoft.VisualStudio.Workload.ManagedGame'"
 choco install -y resharper
