@@ -41,7 +41,7 @@ choco install -y vcredist2013
 choco install -y unity-hub
 choco install -y unity
 
-choco install -y visualstudio2019community --package-parameters="'--add Microsoft.VisualStudio.Component.Git --add Microsoft.VisualStudio.Workload.ManagedGame'"
+choco install -y visualstudio2019community --package-parameters="'--add Microsoft.VisualStudio.Component.Git --add Microsoft.VisualStudio.Workload.ManagedGame --locale en-US'"
 choco install -y resharper
 
 Update-SessionEnvironment #refreshing env due to Git install
